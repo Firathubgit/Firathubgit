@@ -14,10 +14,12 @@ Here are the key technologies and tools I work with:
 - 💻 **C++**
 - ⚛️ **React**
 - 🧱 **Assembly (Intel Syntax)**
+- **And much more...**
 
 **Development Tools**
 - 🗂️ **Git / GitHub**
 - 🔧 **Node.js**
+-  **And much more...**
 
 With a versatile tech stack, I aim to build innovative applications, games, and software that solve real-world problems.
 
