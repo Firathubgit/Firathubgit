@@ -1,10 +1,18 @@
-<img src="assets/header.svg" alt="Firat Kaya — Computer Engineering student at University West, Game Developer Intern at Realdini, founder of Volturiano Studios" width="100%"/>
+<img src="assets/header.svg" alt="Firat Kaya — Computer Engineering student at University West, Game Developer Intern at Realdini Studios. Göteborg, Sweden." width="100%"/>
 
 <p align="center">
-  <a href="https://firatportfolio.com"><b>Portfolio</b></a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/firat-kaya-baba45267"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-  <a href="mailto:Firat05_@hotmail.com"><b>Email</b></a>
+  <a href="https://firatportfolio.com"><img src="assets/icons/portfolio.png" height="15" alt=""/>&nbsp;firatportfolio.com</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/firat-kaya-baba45267"><img src="assets/icons/linkedin.svg" height="15" alt=""/>&nbsp;LinkedIn</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:firat05_@hotmail.com"><img src="assets/icons/mail.svg" height="15" alt=""/>&nbsp;firat05_@hotmail.com</a>
 </p>
+
+<br/>
+
+## Activity
+
+<img src="assets/heatmap.svg" alt="GitHub contribution graph for the last year, updated daily" width="100%"/>
 
 <br/>
 
@@ -20,23 +28,6 @@
 
 <br/>
 
-## Projects
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment"><img src="assets/card-copilot.svg" alt="Android Automotive AI Copilot" width="100%"/></a></td>
-    <td width="50%"><a href="https://firatportfolio.com"><img src="assets/card-volturiano.svg" alt="Volturiano Studios" width="100%"/></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://firatportfolio.com"><img src="assets/card-terrahutton.svg" alt="Mining data to 3D and VR at Terrahutton" width="100%"/></a></td>
-    <td width="50%"><a href="https://github.com/Firathubgit/FiratsGymnasieArbete"><img src="assets/card-fighter.svg" alt="2.5D fighting game in Unity" width="100%"/></a></td>
-  </tr>
-</table>
-
-More repos: [FiratPortfolioWebsite](https://github.com/Firathubgit/FiratPortfolioWebsite) · [PythonCourse](https://github.com/Firathubgit/PythonCourse) · [all repositories →](https://github.com/Firathubgit?tab=repositories)
-
-<br/>
-
 ## Stack
 
 <p align="center">
@@ -47,6 +38,12 @@ More repos: [FiratPortfolioWebsite](https://github.com/Firathubgit/FiratPortfoli
 
 <br/>
 
-## Activity
+## Projects
 
-<img src="assets/heatmap.svg" alt="GitHub contribution graph for the last year, updated daily" width="100%"/>
+<a href="https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment"><img src="assets/project-copilot.svg" alt="Android Automotive AI Infotainment" width="100%"/></a>
+
+<a href="https://firatportfolio.com"><img src="assets/project-volturiano.svg" alt="Volturiano AI Website Builder" width="100%"/></a>
+
+<a href="https://github.com/Firathubgit/FiratsGymnasieArbete"><img src="assets/project-wacky-warriors.svg" alt="Wacky Warriors, a 2.5D fighting game in Unity" width="100%"/></a>
+
+More repos: [FiratPortfolioWebsite](https://github.com/Firathubgit/FiratPortfolioWebsite) · [PythonCourse](https://github.com/Firathubgit/PythonCourse) · [all repositories →](https://github.com/Firathubgit?tab=repositories)

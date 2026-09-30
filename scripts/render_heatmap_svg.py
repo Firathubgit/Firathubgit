@@ -11,7 +11,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from theme import BG, FRAME, INK, MUTED, SANS  # noqa: E402
+from theme import BG, FRAME, INK, MUTED, INTER as SANS, inter_css  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 IN = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "data", "contributions.json")
@@ -60,6 +60,7 @@ H = SY + 82
 best = st["best_day"]
 o = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{st['total']} contributions in the last year">
   <style>
+    {inter_css((400, 600))}
     .c {{ opacity: 0; animation: in .5s ease forwards; }}
     @keyframes in {{ to {{ opacity: 1; }} }}
   </style>

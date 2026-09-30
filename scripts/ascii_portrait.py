@@ -12,10 +12,11 @@ from PIL import Image, ImageFilter
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "assets", "source-prepped.png")
 
-RAMP = " .'`,:;-~=+*ico%#&@"          # sparse -> dense (dark -> bright on a dark bg)
+RAMP = " .:-=+*o#%@"          # sparse -> dense (dark -> bright on a dark bg)
 GAMMA = 0.85
 MASK_T = 0.5
-CROP = (70, 20, 632, 660)             # head + shoulders (l, t, r, b)
+CROP = (105, 25, 597, 585)            # head + top of shoulders (l, t, r, b)
+FLOOR = 0.07                          # darkest tones inside the mask -> blank (less noise)
 TONES = [(0.0, "#737d88"), (0.34, "#a8b1bb"), (0.62, "#f0f3f6")]
 NBSP = " "                       # plain spaces collapse in SVG text
 
@@ -24,7 +25,7 @@ def _esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def ascii_portrait(x, y, cols=96, cell_w=4.0, cell_h=7.3, font_family="monospace"):
+def ascii_portrait(x, y, cols=66, cell_w=3.6, cell_h=6.4, font_family="monospace"):
     """Return (svg_group, width, height) for the portrait placed at (x, y)."""
     im = Image.open(SRC).crop(CROP)
     w, h = im.size
@@ -45,6 +46,8 @@ def ascii_portrait(x, y, cols=96, cell_w=4.0, cell_h=7.3, font_family="monospace
             if a[r, c] <= MASK_T:
                 glyph.append(" "); band.append(-1); continue
             v = float(g[r, c])
+            if v < FLOOR:
+                glyph.append(" "); band.append(-1); continue
             glyph.append(RAMP[min(1 + int(v * (len(RAMP) - 2) + 0.5), len(RAMP) - 1)])
             band.append(max(i for i, (t, _) in enumerate(TONES) if v >= t))
         line = "".join(glyph)
