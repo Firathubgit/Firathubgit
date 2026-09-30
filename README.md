@@ -1,11 +1,9 @@
 <img src="assets/header.svg" alt="Firat Kaya — Computer Engineering student at University West, Game Developer Intern at Realdini Studios. Göteborg, Sweden." width="100%"/>
 
 <p align="center">
-  <a href="https://firatportfolio.com"><img src="assets/icons/portfolio.png" height="15" alt=""/>&nbsp;firatportfolio.com</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/firat-kaya-baba45267"><img src="assets/icons/linkedin.svg" height="15" alt=""/>&nbsp;LinkedIn</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:firat05_@hotmail.com"><img src="assets/icons/mail.svg" height="15" alt=""/>&nbsp;firat05_@hotmail.com</a>
+  <a href="https://firatportfolio.com"><img src="assets/btn-portfolio.svg" height="44" alt="Portfolio: firatportfolio.com"/></a>&nbsp;
+  <a href="https://www.linkedin.com/in/firat-kaya-baba45267"><img src="assets/btn-linkedin.svg" height="44" alt="LinkedIn"/></a>&nbsp;
+  <a href="mailto:firat05_@hotmail.com"><img src="assets/btn-email.svg" height="44" alt="Email: firat05_@hotmail.com"/></a>
 </p>
 
 <br/>
