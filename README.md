@@ -48,10 +48,13 @@
 
 ## Projects
 
-<a href="https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment"><img src="assets/project-copilot.svg" alt="Android Automotive AI Infotainment" width="100%"/></a>
-
-<a href="https://firatportfolio.com"><img src="assets/project-volturiano.svg" alt="Volturiano AI Website Builder" width="100%"/></a>
-
-<a href="https://github.com/Firathubgit/FiratsGymnasieArbete"><img src="assets/project-wacky-warriors.svg" alt="Wacky Warriors, a 2.5D fighting game in Unity" width="100%"/></a>
+<p>
+  <a href="https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment"><picture><source media="(prefers-color-scheme: light)" srcset="assets/repo-copilot-light.svg"/><img src="assets/repo-copilot.svg" width="49%" alt="android-automotive-ai-copliot-infotainment: AI-driven infotainment for Android Automotive OS"/></picture></a>
+  <a href="https://firatportfolio.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/repo-volturiano-light.svg"/><img src="assets/repo-volturiano.svg" width="49%" alt="volturiano: agent-based AI website builder"/></picture></a>
+</p>
+<p>
+  <a href="https://github.com/Firathubgit/FiratsGymnasieArbete"><picture><source media="(prefers-color-scheme: light)" srcset="assets/repo-wacky-warriors-light.svg"/><img src="assets/repo-wacky-warriors.svg" width="49%" alt="FiratsGymnasieArbete: Wacky Warriors, a 2.5D fighting game in Unity"/></picture></a>
+  <a href="https://github.com/Firathubgit/3D-Steering-Wheel-Customizeation"><picture><source media="(prefers-color-scheme: light)" srcset="assets/repo-steering-wheel-light.svg"/><img src="assets/repo-steering-wheel.svg" width="49%" alt="3D-Steering-Wheel-Customizeation: Unity WebGL steering-wheel customizer"/></picture></a>
+</p>
 
 More repos: [FiratPortfolioWebsite](https://github.com/Firathubgit/FiratPortfolioWebsite) · [PythonCourse](https://github.com/Firathubgit/PythonCourse) · [all repositories →](https://github.com/Firathubgit?tab=repositories)
