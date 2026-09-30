@@ -86,6 +86,7 @@ o = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBo
   <g font-family="{MONO}" font-size="10" fill="{MUTED}">''']
 
 last_m = None
+labels = []
 for wk in range(NW):
     d = cells[wk * 7] if wk * 7 < len(cells) and cells[wk * 7] else None
     if d is None:
@@ -94,8 +95,13 @@ for wk in range(NW):
         continue
     m = int(d["date"][5:7])
     if m != last_m and wk < NW - 1:
-        o.append(f'    <text x="{GX + wk * STEP}" y="{GY - 10}">{MONTHS[m - 1]}</text>')
+        labels.append((wk, MONTHS[m - 1]))
         last_m = m
+# drop a label that would collide with the next one (e.g. a partial first month)
+for j, (wk, name) in enumerate(labels):
+    if j + 1 < len(labels) and labels[j + 1][0] - wk < 3:
+        continue
+    o.append(f'    <text x="{GX + wk * STEP}" y="{GY - 10}">{name}</text>')
 for name, r in (("Mon", 1), ("Wed", 3), ("Fri", 5)):
     o.append(f'    <text x="{GX - 34}" y="{GY + r * STEP + CELL - 3}">{name}</text>')
 o.append('  </g>\n  <g>')

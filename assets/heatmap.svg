@@ -26,7 +26,6 @@
   <text x="500.0" y="19.0" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="12" fill="#6b7f95">telemetry://contributions — last 12 months</text>
   <text x="984" y="19.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="11" fill="#1b6f86">updated 2026-09-30</text>
   <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="10" fill="#6b7f95">
-    <text x="91" y="78">Sep</text>
     <text x="107" y="78">Oct</text>
     <text x="171" y="78">Nov</text>
     <text x="251" y="78">Dec</text>
