@@ -1,74 +1,85 @@
-# 👋 Welcome to My GitHub Profile
+<div align="center">
 
-Hi there! My name is **Firat Kaya**, and I'm a passionate developer with a strong foundation in **software development, game development, and web development**. I have hands-on experience in both **individual and group projects**, having participated in over **6-7 collaborative programming projects** with **teams of 4-6 members**. These projects spanned an average of **5 months each**, giving me solid experience in teamwork, code collaboration, and agile development environments.
+<img src="assets/header.svg" alt="Firat Kaya — computer engineer, automotive UI and game developer" width="100%"/>
 
----
+<a href="https://firatportfolio.com"><img src="https://img.shields.io/badge/Portfolio-firatportfolio.com-37e1ff?style=for-the-badge&logo=googlechrome&logoColor=37e1ff&labelColor=0b111b" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/firat-kaya-baba45267"><img src="https://img.shields.io/badge/LinkedIn-Firat_Kaya-37e1ff?style=for-the-badge&logo=linkedin&logoColor=37e1ff&labelColor=0b111b" alt="LinkedIn"/></a>
+<a href="mailto:Firat05_@hotmail.com"><img src="https://img.shields.io/badge/Email-Say_hej-ffb547?style=for-the-badge&logo=maildotru&logoColor=ffb547&labelColor=0b111b" alt="Email"/></a>
+<a href="https://firatportfolio.com"><img src="https://img.shields.io/badge/CV-on_portfolio-3dffa8?style=for-the-badge&logo=readdotcv&logoColor=3dffa8&labelColor=0b111b" alt="CV"/></a>
 
-## 🚀 **Technical Skills**
-Here are the key technologies and tools I work with:
+<br/><br/>
 
-**Languages & Frameworks**
-- 🖥️ **HTML / CSS / JavaScript**
-- 🕹️ **Unity / C#**
-- 🧮 **Python**
-- 💻 **C++**
-- ⚛️ **React**
-- 🧱 **Assembly (Intel Syntax)**
-- **And much more...**
+<table>
+  <tr>
+    <td width="50%"><img src="assets/portrait.svg" alt="ASCII portrait of Firat Kaya" width="100%"/></td>
+    <td width="50%"><img src="assets/info-card.svg" alt="Role, studies and stack" width="100%"/></td>
+  </tr>
+</table>
 
-**Development Tools**
-- 🗂️ **Git / GitHub**
-- 🔧 **Node.js**
--  **And much more...**
+</div>
 
-With a versatile tech stack, I aim to build innovative applications, games, and software that solve real-world problems.
+<br/>
 
----
+## ▸ Featured build
 
-## 📁 **Notable Projects**
-Here are some of the key projects I have worked on. Feel free to explore the repositories for more details!
+<a href="https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment">
+  <img src="https://raw.githubusercontent.com/Firathubgit/android-automotive-ai-copliot-infotainment/main/docs/assets/showcase/infotainment-home.png" alt="Android Automotive infotainment home screen with a 3D Koenigsegg Jesko" width="100%"/>
+</a>
 
-- 🔥 **[PythonCourse](https://github.com/Firathubgit/PythonCourse)**  
-  A repository containing all assignments from my college Python course at **Högskolan Väst**.  
-  **Language:** Python | **Stars:** ⭐ 0 | **Forks:** 🍴 0 | **Issues:** ❗ 0  
+**[Android Automotive AI Copilot Infotainment](https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment)**: a 3D car scene built in Blender, turned into a working Android Automotive cockpit.
 
-- 🌐 **[FiratPortfolioWebsite](https://github.com/Firathubgit/FiratPortfolioWebsite)**  
-  My personal portfolio website showcasing my skills and projects. This project was developed during my time at **LBS Kreativa Gymnasiet**.  
-  **Language:** CSS | **Stars:** ⭐ 0 | **Forks:** 🍴 0 | **Issues:** ❗ 0  
+`Kotlin` `Jetpack Compose` `AAOS VHAL` `COVESA VSS` `KUKSA / gRPC` `Ollama · Qwen3` `Blender` `Figma`
 
-- 🕹️ **[2.5D Mortal Kombat-Style Game](https://github.com/Firathubgit/FiratsGymnasieArbete)**  
-  Developed as part of my high school thesis project at **LBS Kreativa Gymnasiet**, this game was built over **8 months** using **Unity** and **C#**. It features selectable characters, multiple levels, and immersive gameplay.  
+<br/>
 
-If you'd like to see more, check out my [GitHub Repositories](https://github.com/Firathubgit)!
+## ▸ Projects
 
----
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment"><img src="assets/card-copilot.svg" alt="Android Automotive AI Copilot" width="100%"/></a></td>
+    <td width="50%"><a href="https://firatportfolio.com"><img src="assets/card-volturiano.svg" alt="Volturiano Studios" width="100%"/></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://firatportfolio.com"><img src="assets/card-terrahutton.svg" alt="Mining data to 3D and VR at Terrahutton" width="100%"/></a></td>
+    <td width="50%"><a href="https://github.com/Firathubgit/FiratsGymnasieArbete"><img src="assets/card-fighter.svg" alt="2.5D fighting game in Unity" width="100%"/></a></td>
+  </tr>
+</table>
 
-## 📊 **GitHub Stats**
+<sub>More repos: <a href="https://github.com/Firathubgit/FiratPortfolioWebsite">FiratPortfolioWebsite</a> · <a href="https://github.com/Firathubgit/PythonCourse">PythonCourse</a> · <a href="https://github.com/Firathubgit?tab=repositories">all repositories →</a></sub>
 
-🔹 **Public Repositories:** 7  
-🔹 **Followers:** 1  
-🔹 **Following:** 1  
+<br/><br/>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Firathubgit&show_icons=true&theme=radical)
+## ▸ Stack
 
----
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,cs,unity,cpp,py,ts,js&theme=dark&perline=8" alt="Languages"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=react,threejs,nodejs,supabase,blender,figma,git,linux&theme=dark&perline=8" alt="Frameworks and tools"/>
+</p>
 
-## 🤝 **Teamwork & Collaboration**
-I have significant experience working in **group environments**. I have been part of over **6-7 team-based projects** during my academic career, each lasting an average of **5 months**. These projects required strong **teamwork, communication, and version control skills**. Most of these projects were conducted during my time at **LBS Kreativa Gymnasiet**, and I look forward to continuing similar collaboration experiences during my studies at **Högskolan Väst**. I’m comfortable working in both independent and collaborative development environments, and I’m always eager to take on new challenges as part of a team.
+<br/>
 
----
+## ▸ Telemetry
 
-## 📫 **Get in Touch**
-I’m always open to discussing new opportunities, collaborations, and interesting projects. Feel free to reach out to me via:
+<img src="assets/heatmap.svg" alt="Contribution heatmap for the last 12 months, refreshed daily" width="100%"/>
 
-- 📧 **Email:** [Firat05_@hotmail.com](mailto:Firat05_@hotmail.com)  
-- 📱 **Phone:** 0763032964  
-- 🔗 **LinkedIn:** [Firat Kaya on LinkedIn](https://www.linkedin.com/in/firat-kaya-baba45267)  
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Firathubgit/Firathubgit/output/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Firathubgit/Firathubgit/output/snake.svg"/>
+  <img src="https://raw.githubusercontent.com/Firathubgit/Firathubgit/output/snake-dark.svg" alt="Snake eating the contribution graph" width="100%"/>
+</picture>
 
-Looking forward to connecting with you!
+<br/>
 
----
+<details>
+<summary><b>How this profile works</b></summary>
+<br/>
 
-🎉 **Thank you for visiting my profile!** 🎉  
-Don’t forget to ⭐️ **star** my repositories if you find them interesting or useful. See you around GitHub! 🚀
+- **Portrait:** `scripts/prep_photo.py` cuts the background out of the photo (rembg) and boosts local contrast. `scripts/make_ascii_svg.py` then maps brightness to glyphs in three ink tones and animates a terminal-style print.
+- **Header, info card, project cards:** generated by Python into plain SVG. All animation is SMIL/CSS, because GitHub strips JavaScript but still plays SVG animations.
+- **Heatmap:** `.github/workflows/update-profile.yml` runs every morning. It scrapes public contribution data, renders `assets/heatmap.svg`, updates the degree-progress bar and commits the result.
+- **Snake:** [Platane/snk](https://github.com/Platane/snk) runs in the same workflow and publishes to the `output` branch.
 
+</details>
+
+<img src="assets/footer.svg" alt="Thanks for driving by" width="100%"/>

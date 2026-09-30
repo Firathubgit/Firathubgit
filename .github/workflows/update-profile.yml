@@ -1,0 +1,69 @@
+name: Update profile
+
+# Refreshes the contribution heatmap, info card (degree progress) and the
+# contribution snake. Runs daily, on every push to main, and on demand.
+
+on:
+  schedule:
+    - cron: "23 5 * * *"   # ~07:23 Göteborg time
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths-ignore:
+      - "assets/heatmap.svg"
+      - "assets/info-card.svg"
+      - "data/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  art:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch contribution data (public, no token)
+        run: python scripts/fetch_contributions.py
+
+      - name: Render heatmap + info card
+        run: |
+          python scripts/render_heatmap_svg.py
+          python scripts/make_info_svg.py
+
+      - name: Commit updated art
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile telemetry [skip ci]"
+          file_pattern: "data/contributions.json assets/heatmap.svg assets/info-card.svg"
+
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#0d6a84&color_dots=#ebedf0,#b8ecf7,#6fd3ea,#1ba6c6,#0d6a84
+            dist/snake-dark.svg?color_snake=#37e1ff&color_dots=#101a25,#0a3b4b,#0d6a84,#1ba6c6,#37e1ff
+
+      - name: Push snake to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: update snake [skip ci]"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

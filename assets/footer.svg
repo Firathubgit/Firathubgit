@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#37e1ff" stop-opacity="0"/><stop offset=".5" stop-color="#37e1ff"/><stop offset="1" stop-color="#37e1ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#37e1ff" stop-opacity="0"/><stop offset="1" stop-color="#37e1ff" stop-opacity=".25"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="1" y="1" width="998" height="118" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="120" fill="#070b12"/>
+    <path d="M300,120 L490,40 L510,40 L700,120 Z" fill="url(#road)"/>
+    <line x1="330" y1="120" x2="494" y2="40" stroke="#1b6f86"/>
+    <line x1="670" y1="120" x2="506" y2="40" stroke="#1b6f86"/>
+    <line x1="500" y1="120" x2="500" y2="40" stroke="#37e1ff" stroke-width="2.5" stroke-dasharray="10 14" opacity=".8">
+      <animate attributeName="stroke-dashoffset" from="0" to="48" dur=".6s" repeatCount="indefinite"/>
+    </line>
+    <rect x="0" y="40" width="1000" height="1" fill="url(#fade)"/>
+    <circle cx="500" cy="40" r="3" fill="#ffb547"><animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"/></circle>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="119" rx="12" fill="none" stroke="#1b2838"/>
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="12" letter-spacing="2">
+    <text x="40" y="76" fill="#6b7f95">END OF ROUTE</text>
+    <text x="40" y="96" fill="#d6e2ee">thanks for driving by</text>
+    <text x="960" y="76" text-anchor="end" fill="#6b7f95">NEXT STOP</text>
+    <text x="960" y="96" text-anchor="end" fill="#37e1ff">let's build something ▸</text>
+  </g>
+</svg>

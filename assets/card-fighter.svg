@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="206" viewBox="0 0 490 206" role="img" aria-label="2.5D Fighting Game">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff5470" stop-opacity=".13"/><stop offset=".5" stop-color="#0b111b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5470" stop-opacity="0"/><stop offset=".5" stop-color="#ff5470"/><stop offset="1" stop-color="#ff5470" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="1" y="1" width="488" height="204" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="490" height="206" fill="#070b12"/>
+    <rect width="490" height="206" fill="url(#g)"/>
+    <rect x="0" y="0" width="4" height="206" fill="#ff5470"/>
+    <rect x="-160" y="0" width="160" height="2" fill="url(#sw)">
+      <animate attributeName="x" values="-160;490" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="468" y="188" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="84" font-weight="800" fill="#ff5470" opacity=".07">04</text>
+  </g>
+  <rect x="0.5" y="0.5" width="489" height="205" rx="10" fill="none" stroke="#1b2838"/>
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="11">
+    <text x="26" y="36" fill="#ff5470" letter-spacing="2">04 <tspan fill="#1b2838">/</tspan> <tspan fill="#6b7f95">PROJECT</tspan></text>
+    <circle cx="396" cy="32" r="3.5" fill="#37e1ff"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="406" y="36" fill="#37e1ff" letter-spacing="2">SHIPPED</text>
+  </g>
+  <text x="26" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#d6e2ee">2.5D Fighting Game</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#6b7f95">
+    <text x="26" y="106">Mortal Kombat-style brawler built over 8 months:</text>
+    <text x="26" y="126">selectable fighters, multiple stages, full combat loop.</text>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="11"><rect x="26" y="160" width="49" height="22" rx="11" fill="#0e1622" stroke="#1b2838"/><text x="50.5" y="175" text-anchor="middle" fill="#d6e2ee">Unity</text><rect x="82.0" y="160" width="28" height="22" rx="11" fill="#0e1622" stroke="#1b2838"/><text x="96.0" y="175" text-anchor="middle" fill="#d6e2ee">C#</text><rect x="117.0" y="160" width="91" height="22" rx="11" fill="#0e1622" stroke="#1b2838"/><text x="162.5" y="175" text-anchor="middle" fill="#d6e2ee">Game design</text><rect x="215.0" y="160" width="77" height="22" rx="11" fill="#0e1622" stroke="#1b2838"/><text x="253.5" y="175" text-anchor="middle" fill="#d6e2ee">Animation</text></g>
+  <path d="M18,8 L8,8 L8,18 M472,8 L482,8 L482,18 M18,198 L8,198 L8,188 M472,198 L482,198 L482,188" fill="none" stroke="#ff5470" stroke-width="1.5" stroke-linecap="square" opacity="0.55"/>
+</svg>
