@@ -23,7 +23,7 @@
 <p align="center">A 3D car scene built in Blender, turned into a working Android Automotive cockpit.</p>
 
 <p align="center">
-  <a href="https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment"><picture><source media="(prefers-color-scheme: light)" srcset="assets/link-featured-light.svg"/><img src="assets/link-featured.svg" height="32" alt="github.com/Firathubgit/android-automotive-ai-copliot-infotainment"/></picture></a>
+  <a href="https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment"><picture><source media="(prefers-color-scheme: light)" srcset="assets/link-featured-light.svg"/><img src="assets/link-featured.svg" height="32" alt="Link: github.com/Firathubgit/android-automotive-ai-copliot-infotainment"/></picture></a>
 </p>
 
 <br/>

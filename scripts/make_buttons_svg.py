@@ -45,19 +45,23 @@ def portfolio_icon(x, y, ink=None):
 
 
 def github_link(label, ink):
-    """GitHub mark + underlined repo path, for the featured build."""
+    """GitHub mark, "Link:", then the underlined repo path (featured build)."""
     d = re.search(r' d="([^"]+)"', open(os.path.join(ICONS, "github.svg")).read()).group(1)
     size, icon = 16, 20
+    prefix = "Link:"
+    px = icon + 10
+    lx = px + text_width(prefix, size, 400) + 8
     tw = text_width(label, size, 600)
-    W = int(icon + 10 + tw + 2)
+    W = int(lx + tw + 2)
     Hh = 32
     ty = Hh / 2 + 5.5
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{Hh}" viewBox="0 0 {W} {Hh}" role="img" aria-label="{esc(label)}">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{Hh}" viewBox="0 0 {W} {Hh}" role="img" aria-label="Link: {esc(label)}">
   <style>
-    {inter_css((600,))}
+    {inter_css((400, 600))}
   </style>
   <g transform="translate(0,{(Hh - icon) / 2:.1f}) scale({icon / 24:.4f})"><path fill="{ink}" d="{d}"/></g>
-  <text x="{icon + 10}" y="{ty:.1f}" font-family="{INTER}" font-size="{size}" font-weight="600" fill="{ink}" style="text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px">{esc(label)}</text>
+  <text x="{px}" y="{ty:.1f}" font-family="{INTER}" font-size="{size}" fill="{ink}">{prefix}</text>
+  <text x="{lx:.1f}" y="{ty:.1f}" font-family="{INTER}" font-size="{size}" font-weight="600" fill="{ink}" style="text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px">{esc(label)}</text>
 </svg>'''
 
 
