@@ -1,9 +1,13 @@
 <img src="assets/header.svg" alt="Firat Kaya — Computer Engineering student at University West, Game Developer Intern at Realdini Studios. Göteborg, Sweden." width="100%"/>
 
+<br/>
+
 <p align="center">
-  <a href="https://firatportfolio.com"><img src="assets/btn-portfolio.svg" height="44" alt="Portfolio: firatportfolio.com"/></a>&nbsp;
-  <a href="https://www.linkedin.com/in/firat-kaya-baba45267"><img src="assets/btn-linkedin.svg" height="44" alt="LinkedIn"/></a>&nbsp;
-  <a href="mailto:firat05_@hotmail.com"><img src="assets/btn-email.svg" height="44" alt="Email: firat05_@hotmail.com"/></a>
+  <a href="https://firatportfolio.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/btn-portfolio-light.svg"/><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio: firatportfolio.com"/></picture></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/firat-kaya-baba45267"><picture><source media="(prefers-color-scheme: light)" srcset="assets/btn-linkedin-light.svg"/><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn"/></picture></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:firat05_@hotmail.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/btn-email-light.svg"/><img src="assets/btn-email.svg" height="40" alt="Email: firat05_@hotmail.com"/></picture></a>
 </p>
 
 <br/>
