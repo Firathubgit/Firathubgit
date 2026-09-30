@@ -38,11 +38,10 @@
 
 ## Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,cs,unity,cpp,py,ts,js&theme=dark&perline=8" alt="Languages"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=react,threejs,nodejs,supabase,blender,figma,git,linux&theme=dark&perline=8" alt="Frameworks and tools"/>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg"/>
+  <img src="assets/stack.svg" width="100%" alt="Operating systems: Windows, MacOS, Debian, Arch. Programming: Python, SQL, TypeScript, JavaScript, C++, C#, Kotlin, Android, Jetpack Compose, HTML, CSS, Linux, REST API, React, Node.js, Supabase, Next.js, Three.js. Tools: Git, Docker, Figma, VS Code, Visual Studio, Vim/Neovim, YouTrack, Unity, Unreal, Godot, Fusion 360. Certifications: CCNA 1, Linux Unhatched. Languages: Swedish, English, Turkish (fluent)."/>
+</picture>
 
 <br/>
 
