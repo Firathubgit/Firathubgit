@@ -20,16 +20,20 @@
   <img src="assets/featured-infotainment.webp" alt="Android Automotive infotainment home screen with a 3D Koenigsegg Jesko" width="100%"/>
 </a>
 
+<p align="center">A 3D car scene built in Blender, turned into a working Android Automotive cockpit.</p>
+
 <p align="center">
-  <a href="https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment"><b>Android Automotive AI Copilot Infotainment</b></a><br/>
-  A 3D car scene built in Blender, turned into a working Android Automotive cockpit.
+  <a href="https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment"><picture><source media="(prefers-color-scheme: light)" srcset="assets/link-featured-light.svg"/><img src="assets/link-featured.svg" height="32" alt="github.com/Firathubgit/android-automotive-ai-copliot-infotainment"/></picture></a>
 </p>
+
+<br/>
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/tech-featured-light.svg"/>
   <img src="assets/tech-featured.svg" alt="Kotlin, Jetpack Compose, Android Automotive OS, AAOS VHAL, COVESA VSS, MapLibre, Ollama / Qwen3, Python" width="100%"/>
 </picture>
 
+<br/>
 <br/>
 
 ## Stack
