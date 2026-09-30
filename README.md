@@ -16,7 +16,7 @@
 
 **[Android Automotive AI Copilot Infotainment](https://github.com/Firathubgit/android-automotive-ai-copliot-infotainment)**: a 3D car scene built in Blender, turned into a working Android Automotive cockpit.
 
-`Kotlin` `Jetpack Compose` `AAOS VHAL` `COVESA VSS` `KUKSA / gRPC` `Ollama · Qwen3` `Blender` `Figma`
+<img src="https://skillicons.dev/icons?i=kotlin,androidstudio,py,linux,blender,figma&theme=dark" alt="Kotlin, Android Studio, Python, Linux, Blender, Figma" height="44"/>
 
 <br/>
 

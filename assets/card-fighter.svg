@@ -1,26 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="490" height="206" viewBox="0 0 490 206" role="img" aria-label="2.5D Fighting Game">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f85149" stop-opacity=".10"/><stop offset=".5" stop-color="#161b22" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="c"><rect x="1" y="1" width="488" height="204" rx="14"/></clipPath>
-  </defs>
-  <g clip-path="url(#c)">
-    <rect width="490" height="206" fill="#161b22"/>
-    <rect width="490" height="206" fill="url(#g)"/>
-    <rect x="0" y="0" width="4" height="206" fill="#f85149"/>
-    <text x="468" y="188" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="84" font-weight="800" fill="#f85149" opacity=".07">04</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="178" viewBox="0 0 490 178" role="img" aria-label="2.5D Fighting Game">
+  <rect x="0.5" y="0.5" width="489" height="177" rx="12" fill="#161b22" stroke="#30363d"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+    <text x="26" y="48" font-size="21" font-weight="600" fill="#e6edf3">2.5D Fighting Game</text>
+    <circle cx="401.6" cy="42" r="4" fill="#6e7681"/>
+    <text x="464" y="47" text-anchor="end" font-size="13" fill="#8b949e">Shipped</text>
+    <text x="26" y="84" font-size="14" fill="#8b949e">Mortal Kombat-style brawler built over 8 months:</text>
+    <text x="26" y="105" font-size="14" fill="#8b949e">selectable fighters, multiple stages, full combat loop.</text>
+    <line x1="26" y1="128" x2="464" y2="128" stroke="#30363d"/>
+    <text x="26" y="154" font-size="13" fill="#e6edf3">Unity  ·  C#  ·  Game design  ·  Animation</text>
   </g>
-  <rect x="0.5" y="0.5" width="489" height="205" rx="14" fill="none" stroke="#30363d"/>
-  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11">
-    <text x="26" y="36" fill="#f85149" letter-spacing="2">04 <tspan fill="#30363d">/</tspan> <tspan fill="#8b949e">PROJECT</tspan></text>
-    <circle cx="396" cy="32" r="3.5" fill="#8b949e"></circle>
-    <text x="406" y="36" fill="#8b949e" letter-spacing="2">SHIPPED</text>
-  </g>
-  <text x="26" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">2.5D Fighting Game</text>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">
-    <text x="26" y="106">Mortal Kombat-style brawler built over 8 months:</text>
-    <text x="26" y="126">selectable fighters, multiple stages, full combat loop.</text>
-  </g>
-  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11"><rect x="26" y="160" width="49" height="22" rx="11" fill="#1c2128" stroke="#30363d"/><text x="50.5" y="175" text-anchor="middle" fill="#e6edf3">Unity</text><rect x="82.0" y="160" width="28" height="22" rx="11" fill="#1c2128" stroke="#30363d"/><text x="96.0" y="175" text-anchor="middle" fill="#e6edf3">C#</text><rect x="117.0" y="160" width="91" height="22" rx="11" fill="#1c2128" stroke="#30363d"/><text x="162.5" y="175" text-anchor="middle" fill="#e6edf3">Game design</text><rect x="215.0" y="160" width="77" height="22" rx="11" fill="#1c2128" stroke="#30363d"/><text x="253.5" y="175" text-anchor="middle" fill="#e6edf3">Animation</text></g>
 </svg>
