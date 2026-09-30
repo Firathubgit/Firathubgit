@@ -16,7 +16,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ASSETS = os.path.join(HERE, "..", "assets")
 TECH = os.path.join(ASSETS, "tech")
 
-# (label, [(icon, name), ...]); None starts a new line after a thin divider,
+# (label, [(icon, name), ...]); None starts a new line after a small gap,
 # mirroring the split between languages and frameworks on the CV.
 GROUPS = [
     ("Operating Systems", [("windows", "Windows"), ("macos", "MacOS"), ("debian", "Debian"), ("arch", "Arch")]),
@@ -63,8 +63,7 @@ def build(dark):
     y = 6
     for gi, (label, items) in enumerate(GROUPS):
         if gi:
-            o.append(f'<line x1="{LX}" y1="{y + 4}" x2="{RIGHT}" y2="{y + 4}" stroke="{rule}"/>')
-            y += 18
+            y += 18                              # groups are separated by space only
         top = y
         cy = y + ROW / 2
         o.append(f'<text x="{LX}" y="{cy + 5:.1f}" font-size="14" fill="{muted}">{esc(label)}</text>')
@@ -72,8 +71,7 @@ def build(dark):
         for it in items:
             if it is None:                       # CV-style divider inside a group
                 y += ROW
-                o.append(f'<line x1="{IX}" y1="{y + 2}" x2="{IX + 380}" y2="{y + 2}" stroke="{rule}" stroke-dasharray="2 4"/>')
-                y += 8
+                y += 6
                 cy = y + ROW / 2
                 x = IX
                 continue
