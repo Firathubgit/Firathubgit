@@ -38,10 +38,11 @@ REPOS = [
                "with local multiplayer, multiple characters and stages.",
                "Diploma project."],
          lang=("C#", "#178600")),
-    dict(slug="steering-wheel", name="3D-Steering-Wheel-Customizeation", vis="Public",
-         desc=["Real-time 3D steering-wheel customization in Unity WebGL,",
-               "built to plug into a Shopify e-commerce store."],
-         lang=("ShaderLab", "#222c37")),
+    dict(slug="formula-driverless", name="Formula-Driverless-Path-Predictor", vis="Public",
+         desc=["A C++20 and Qt 6 racing simulator that shows why a driverless car brakes,",
+               "accelerates or changes line. Real tire physics, a minimum-curvature racing",
+               "line and MPCC, all backed by tests."],
+         lang=("C++", "#f34b7d")),
 ]
 
 W, H = 480, 150

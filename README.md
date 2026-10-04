@@ -53,7 +53,7 @@
 </p>
 <p>
   <a href="https://github.com/Firathubgit/FiratsGymnasieArbete"><picture><source media="(prefers-color-scheme: light)" srcset="assets/repo-wacky-warriors-light.svg"/><img src="assets/repo-wacky-warriors.svg" width="49%" alt="FiratsGymnasieArbete: Wacky Warriors, a 2.5D fighting game in Unity"/></picture></a>
-  <a href="https://github.com/Firathubgit/3D-Steering-Wheel-Customizeation"><picture><source media="(prefers-color-scheme: light)" srcset="assets/repo-steering-wheel-light.svg"/><img src="assets/repo-steering-wheel.svg" width="49%" alt="3D-Steering-Wheel-Customizeation: Unity WebGL steering-wheel customizer"/></picture></a>
+  <a href="https://github.com/Firathubgit/Formula-Driverless-Path-Predictor"><picture><source media="(prefers-color-scheme: light)" srcset="assets/repo-formula-driverless-light.svg"/><img src="assets/repo-formula-driverless.svg" width="49%" alt="Formula-Driverless-Path-Predictor: C++ racing simulator that explains a driverless car's decisions"/></picture></a>
 </p>
 
-More repos: [FiratPortfolioWebsite](https://github.com/Firathubgit/FiratPortfolioWebsite) · [PythonCourse](https://github.com/Firathubgit/PythonCourse) · [all repositories →](https://github.com/Firathubgit?tab=repositories)
+I have 30+ repositories, most of them private client and company work. [See the public ones →](https://github.com/Firathubgit?tab=repositories)
